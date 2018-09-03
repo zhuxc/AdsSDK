@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <Button
+        android:id="@+id/btn_advert_show_interstitial"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="show InterstitialAds"/>
+
+    <Button
+        android:id="@+id/btn_advert_show_video"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="show VideoAds"/>
+
+
+
+    <Button
+        android:id="@+id/btn_advert_setBannerAlign"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="setBannerAlign"/>
+
+
+    <Button
+        android:id="@+id/btn_advert_show_banner"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="show Banner"/>
+
+    <Button
+        android:id="@+id/btn_advert_hideBanner"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="hide Banner"/>
+</LinearLayout>
